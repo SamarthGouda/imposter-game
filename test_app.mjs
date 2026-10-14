@@ -93,7 +93,7 @@ async function runTests() {
 
       // Pick first available remaining player
       const firstPlayerBtn = page.locator('.player-select-btn').first();
-      const playerName = await firstPlayerBtn.locator('.player-btn-name').textContent();
+      const _playerName = await firstPlayerBtn.locator('.player-btn-name').textContent();
       await firstPlayerBtn.click();
 
       // Secret Word Screen

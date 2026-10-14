@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../../components/Button';
-import { playPassPhone, playSecretReveal } from '../../utils/sound';
+import { playPassPhone } from '../../utils/sound';
 
 export default function SecretWord({
   playerName,
