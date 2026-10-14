@@ -1,0 +1,3 @@
+@echo off
+echo Starting Imposter Game Development Server...
+npm run dev
